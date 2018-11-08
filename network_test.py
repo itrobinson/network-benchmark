@@ -48,7 +48,7 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) < 3:
-        print "usage: python network_latency_test.py <ip> <n_sample> <timeout>"
+        print "usage: python network_test.py <ip> <n_sample> <timeout>"
         sys.exit(1)
 
     ip = sys.argv[1]
